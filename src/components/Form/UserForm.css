@@ -1,0 +1,48 @@
+input {
+    border-radius: 20px;
+    width: 220px;
+    height: 35px;
+}
+
+label {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: #a7e3ef;
+}
+
+span {
+    border-right: 2px solid #000;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+span:last-child {
+    border-right: none;
+}
+
+.wrapper {
+    background-color: #7aaeb9;
+    border: 1px solid #000;
+}
+
+.tile-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.tile {
+    background-color: #c35b6d;
+    padding: 34px;
+    border-radius: 25px;
+    width: 534px;
+    margin: 10px;
+}
